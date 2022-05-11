@@ -13,3 +13,5 @@ print(f'Dominant Emotion: {analyze["dominant_emotion"]}')
 print(f'Age: {analyze["age"]}')
 print(f'Gender: {analyze["gender"]}')
 print(f'Race: {analyze["dominant_race"]}')
+cv2.imshow(inputimage, image)
+cv2.waitKey(0) #Press any key on your keyboard to close image
