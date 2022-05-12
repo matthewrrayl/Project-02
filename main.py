@@ -21,7 +21,7 @@ def main():
         if view == 'y':
             cv2.imshow(inputimage, image)
             cv2.waitKey(0)  # Hit any key on keyboard to close the image
-        repeat = input('Repeat? y/n: ')  # Input y or n to analyze new image
+        repeat = input('Analyze another image? y/n: ')  # Input y or n to analyze new image
         repeat = repeat.strip().lower()
         if repeat == 'y':
             inputimage = input('Enter image path: ')
