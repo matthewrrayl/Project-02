@@ -1,5 +1,7 @@
 # Matthew Rayl
 # Project 2
+# Original Idea: https://www.youtube.com/watch?v=xv3G5sIx2co
+# Added ideas: Loop/View Image option
 
 import cv2
 from deepface import DeepFace
